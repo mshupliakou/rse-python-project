@@ -1,7 +1,9 @@
 .ipynb_checkpoints/
+.pytest_cache/
 __pycache__/
 *.py[cod]
 .virtualenv/
+phys_engine_cool.egg-info/
 venv/
 dist/
 build/

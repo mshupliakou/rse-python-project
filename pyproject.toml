@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phys-engine-cool" 
+version = "0.1.0"
+description = "High-performance physics simulation with Numba and Pint"
+authors = [{name = "Your Name", email = "your@email.com"}]
+dependencies = [
+    "pint",
+    "numba",
+    "numpy",
+]
+requires-python = ">=3.9"
+
+[tool.setuptools.packages.find]
+where = ["src"]
