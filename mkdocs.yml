@@ -1,0 +1,14 @@
+site_name: PhysCalc Documentation
+site_description: High-performance physics simulation
+theme:
+  name: material
+  palette:
+    primary: deep purple
+    accent: purple
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [src]
