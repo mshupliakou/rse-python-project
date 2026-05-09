@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "phys-engine-cool" 
 dynamic = ["version"]
 description = "High-performance physics simulation with Numba and Pint"
-authors = [{name = "Your Name", email = "your@email.com"}]
+authors = [{name = "Mikhail Shupliakou", email = "mshupliakou@student.agh.edu.pl"}]
 dependencies = [
     "pint",
     "numba",
